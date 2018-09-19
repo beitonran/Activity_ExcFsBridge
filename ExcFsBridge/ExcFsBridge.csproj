@@ -192,7 +192,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Bootstrapper.cs" />
     <Compile Include="Design\DesignDataService.cs" />
     <Compile Include="Domain\DataLayer\DB\DataExcellLayer.cs" />
     <Compile Include="Domain\DataLayer\DB\TypesEnum.cs" />
