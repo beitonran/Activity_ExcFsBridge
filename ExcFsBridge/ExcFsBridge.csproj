@@ -80,8 +80,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>_DLL\LumenWorks.Framework.IO.dll</HintPath>
     </Reference>
-    <Reference Include="MahApps.Metro, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MahApps.Metro.1.6.4\lib\net47\MahApps.Metro.dll</HintPath>
+    <Reference Include="MahApps.Metro, Version=1.6.5.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.6.5\lib\net47\MahApps.Metro.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="MaterialDesignColors, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialDesignColors.1.1.2\lib\net45\MaterialDesignColors.dll</HintPath>
@@ -89,8 +90,9 @@
     <Reference Include="MaterialDesignThemes.MahApps, Version=0.0.11.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialDesignThemes.MahApps.0.0.11\lib\net45\MaterialDesignThemes.MahApps.dll</HintPath>
     </Reference>
-    <Reference Include="MaterialDesignThemes.Wpf, Version=2.3.1.953, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MaterialDesignThemes.2.3.1.953\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=2.4.1.1101, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignThemes.2.4.1.1101\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.Expression.Interactions, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.Extensions.Caching.Abstractions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
@@ -214,14 +216,6 @@
     <Compile Include="Domain\Utils\Helpers\VisualTreeHelper.cs" />
     <Compile Include="Domain\Utils\Samples\AssemblyRef.cs" />
     <Compile Include="Domain\Services\DataCollectService\DataCollectSrv.cs" />
-    <Compile Include="Domain\Services\DeviceScannerService\DeviceScanner.cs" />
-    <Compile Include="Domain\Services\DeviceScannerService\DeviceScannerSrv.cs" />
-    <Compile Include="Domain\Services\DeviceScannerService\Settings.cs" />
-    <Compile Include="Domain\Services\DeviceScannerService\stfuncs.cs" />
-    <Compile Include="Domain\Services\DeviceScannerService\stfuncsPINVOKE.cs" />
-    <Compile Include="Domain\Services\DeviceScannerService\SWIGTYPE_p_usint.cs" />
-    <Compile Include="Domain\Services\DeviceScannerService\t_ExcDevInfoPacket.cs" />
-    <Compile Include="Domain\Services\DeviceScannerService\vecinfo.cs" />
     <Compile Include="Domain\Services\UtilServices\Repositories\ISystemInfoRepository.cs" />
     <Compile Include="Domain\Services\UtilServices\Repositories\SystemInfoRepository.cs" />
     <Compile Include="Domain\Utils\ConsumeAttribute.cs" />
@@ -244,19 +238,6 @@
     </Compile>
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
-    <Compile Include="View\PageViews\ConfigView\ConfigUC\EnableDebugTracesUCView.xaml.cs">
-      <DependentUpon>EnableDebugTracesUCView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\PageViews\ConfigView\ConfigView.xaml.cs">
-      <DependentUpon>ConfigView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\PageViews\ConfigView\ConfigViewModel.cs" />
-    <Compile Include="View\PageViews\ConfigView\ConfigUC\ConnectionConfigUCView.xaml.cs">
-      <DependentUpon>ConnectionConfigUCView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\PageViews\ConfigView\ConfigUC\UniqueIdentifierUCView.xaml.cs">
-      <DependentUpon>UniqueIdentifierUCView.xaml</DependentUpon>
-    </Compile>
     <Compile Include="View\PageViews\TestView\TestView.xaml.cs">
       <DependentUpon>TestView.xaml</DependentUpon>
     </Compile>
@@ -265,24 +246,9 @@
       <DependentUpon>HelpView.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\PageViews\HelpView\HelpViewModel.cs" />
-    <Compile Include="View\ShellViews\DeviceDataView\DeviceDataGridView.xaml.cs">
-      <DependentUpon>DeviceDataGridView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\ShellViews\DeviceDataView\DeviceDataView.xaml.cs">
-      <DependentUpon>DeviceDataView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\ShellViews\DeviceDataView\DeviceDataGridViewModel.cs" />
-    <Compile Include="View\ShellViews\DeviceDataView\DeviceDataViewModel.cs" />
     <Compile Include="View\ShellViews\FileExportSettingsView\FileExportSettingsViewModel.cs" />
     <Compile Include="View\ShellViews\FileExportSettingsView\FileExportSettingsView.xaml.cs">
       <DependentUpon>FileExportSettingsView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\ShellViews\ModuleDataView\ModuleDataGridView.xaml.cs">
-      <DependentUpon>ModuleDataGridView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\ShellViews\ModuleDataView\ModuleDataGridViewModel.cs" />
-    <Compile Include="View\ShellViews\ReadDataView\ReadDataView.xaml.cs">
-      <DependentUpon>ReadDataView.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\ShellViews\Shell.xaml.cs">
       <DependentUpon>Shell.xaml</DependentUpon>
@@ -322,22 +288,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\PageViews\ConfigView\ConfigUC\EnableDebugTracesUCView.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\PageViews\ConfigView\ConfigView.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\PageViews\ConfigView\ConfigUC\ConnectionConfigUCView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\PageViews\ConfigView\ConfigUC\UniqueIdentifierUCView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="View\PageViews\TestView\TestView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -346,23 +296,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\ShellViews\DeviceDataView\DeviceDataGridView.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\ShellViews\DeviceDataView\DeviceDataView.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="View\ShellViews\FileExportSettingsView\FileExportSettingsView.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\ShellViews\ModuleDataView\ModuleDataGridView.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\ShellViews\ReadDataView\ReadDataView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -399,16 +333,6 @@
       <LastGenOutput>LauncherResources.Designer.cs</LastGenOutput>
     </Resource>
     <Resource Include="Resources\images\Logo.jpg" />
-    <Content Include="Domain\Services\DeviceScannerService\devinfos.dll" />
-    <Content Include="Domain\Services\DeviceScannerService\Exc1553PxMs.dll" />
-    <Content Include="Domain\Services\DeviceScannerService\Exc4000Ms.dll" />
-    <Content Include="Domain\Services\DeviceScannerService\Exc429RtxMs.dll" />
-    <Content Include="Domain\Services\DeviceScannerService\ExcUnetMs.dll" />
-    <Content Include="Domain\Services\DeviceScannerService\frontdesk32.dll" />
-    <Content Include="Domain\Services\DeviceScannerService\M4Kdlls\Exc1553PxMs.dll" />
-    <Content Include="Domain\Services\DeviceScannerService\M4Kdlls\Exc4000Ms.dll" />
-    <Content Include="Domain\Services\DeviceScannerService\M4Kdlls\Exc429RtxMs.dll" />
-    <Content Include="Domain\Services\DeviceScannerService\stfuncs.dll" />
     <Resource Include="launcher.ico" />
     <Content Include="NLog.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

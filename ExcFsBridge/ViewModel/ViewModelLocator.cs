@@ -13,13 +13,10 @@ using System;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Ioc;
 using LauncherMvvmLight.Domain.Services.DeviceCollectService;
-using LauncherMvvmLight.Domain.Services.DeviceScannerService;
 using Microsoft.Practices.ServiceLocation;
-using LauncherMvvmLight.View.ConfigViews;
 using LauncherMvvmLight.View.PageViews.HelpView;
 using LauncherMvvmLight.View.ShellViews;
 using LauncherMvvmLight.View.ShellViews.DeviceDataView;
-using LauncherMvvmLight.View.ShellViews.ModuleDataView;
 using LauncherMvvmLight.Domain.Services.TaskService;
 using LauncherMvvmLight.View.PageViews.TestView;
 using LauncherMvvmLight.Domain.Services.SyncService;
@@ -37,25 +34,16 @@ namespace LauncherMvvmLight.ViewModel
     {
         static ViewModelLocator()
         {
-            //working with bootstrapper option
-            //private static Bootstrapper _bootStrapper;
-            //if (_bootStrapper == null)
-            //    _bootStrapper = new Bootstrapper();
-
+           
             ServiceLocator.SetLocatorProvider(() => SimpleIoc.Default);
-
-
-            //SimpleIoc.Default.Register<ModuleInfoRepo>(() => {
-            //    return new ModuleInfoRepo("modules");
-            //});
 
             if (ViewModelBase.IsInDesignModeStatic)
             {
-                SimpleIoc.Default.Register<IDeviceScannerService, Design.DesignDataService>();
+                //SimpleIoc.Default.Register<IDeviceScannerService, Design.DesignDataService>();
             }
             else
             {
-                SimpleIoc.Default.Register<IDeviceScannerService, DeviceScannerService>();
+                //SimpleIoc.Default.Register<IDeviceScannerService, DeviceScannerService>();
                 SimpleIoc.Default.Register<IDataCollectSrv, DataCollectSrv>();
                 SimpleIoc.Default.Register<IDBSrv, DBSrv>();
                 SimpleIoc.Default.Register<ITaskSrv, TaskSrv>();
@@ -70,15 +58,12 @@ namespace LauncherMvvmLight.ViewModel
 
             SetupNavigation();
             SimpleIoc.Default.Register<ShellViewModel>();
-            SimpleIoc.Default.Register<ConfigViewModel>();
             SimpleIoc.Default.Register<HelpViewModel>();
             SimpleIoc.Default.Register<TestViewModel>();
             SimpleIoc.Default.Register<ShellViewModel>();
             SimpleIoc.Default.Register<MainViewModel>();
 
 
-            SimpleIoc.Default.Register<ModuleDataGridViewModel>();
-            SimpleIoc.Default.Register<DeviceDataGridViewModel>();
             SimpleIoc.Default.Register<FileExportSettingsViewModel>();
 
 
@@ -124,29 +109,6 @@ namespace LauncherMvvmLight.ViewModel
                 return ServiceLocator.Current.GetInstance<TestViewModel>();
             }
         }
-        public ConfigViewModel Config
-        {
-            get
-            {
-                return ServiceLocator.Current.GetInstance<ConfigViewModel>();
-            }
-        }
-        public DeviceDataGridViewModel DeviceDataGrid
-        {
-            get
-            {
-                return ServiceLocator.Current.GetInstance<DeviceDataGridViewModel>();
-            }
-        }
-
-        public ModuleDataGridViewModel ModuleDataGrid
-        {
-            get
-            {
-                return ServiceLocator.Current.GetInstance<ModuleDataGridViewModel>();
-            }
-        }
-
         public FileExportSettingsViewModel FileExportSettings
         {
             get

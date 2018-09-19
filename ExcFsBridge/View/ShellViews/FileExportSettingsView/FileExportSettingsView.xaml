@@ -13,7 +13,7 @@
         <converter:BrushColorConverter x:Key="BoolToColorConverter"></converter:BrushColorConverter>
     </UserControl.Resources>
     <Grid>
-        <GroupBox Header="Report" Style="{StaticResource GroupBoxStyleOverride}">
+        <GroupBox Header="Report" >
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>

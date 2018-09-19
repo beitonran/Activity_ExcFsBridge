@@ -3,19 +3,15 @@ using System.Runtime.InteropServices;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
-using System.Linq;
 using System.Management.Automation;
 using System.Management.Automation.Runspaces;
 using GalaSoft.MvvmLight.Messaging;
 using LauncherMvvmLight.Domain.Messages;
 using LauncherMvvmLight.Domain.Services.UtilServices;
-using LauncherMvvmLight.MessageInfrastructure;
 using LauncherMvvmLight.Model;
 using Microsoft.Win32;
 using System.IO;
-using System.Management;
 using System.Text;
-using System.Runtime.InteropServices;
 
 namespace LauncherMvvmLight.Domain.Services.DeviceCollectService
 {

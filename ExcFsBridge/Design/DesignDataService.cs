@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Threading;
-using System.Threading.Tasks;
-using LauncherMvvmLight.Domain;
-using LauncherMvvmLight.Domain.Services.DeviceScannerService;
 using LauncherMvvmLight.Model;
 
 
 namespace LauncherMvvmLight.Design
 {
+    /*
     public class DesignDataService : IDeviceScannerService
     {
         public bool SearchDevices()
@@ -32,4 +28,7 @@ namespace LauncherMvvmLight.Design
         }
 
     }
+    */
+
 }
+

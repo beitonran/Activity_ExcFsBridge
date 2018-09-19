@@ -5,7 +5,7 @@
 
 
     <!-- Override Styles -->
-    <Style x:Key="GroupBoxStyleOverride" TargetType="{x:Type GroupBox}" BasedOn="{StaticResource GroupBoxStyle}">
+    <!--<Style x:Key="GroupBoxStyleOverride" TargetType="{x:Type GroupBox}" BasedOn="{StaticResource GroupBoxStyle}">
         <Setter Property="BorderBrush" Value="#FF939090" />
         <Setter Property="Foreground" Value="#FF939090" />
     </Style>
@@ -18,7 +18,7 @@
 
     <Style x:Key="HeaderStyleOverride" TargetType="{x:Type TextBlock}">
         <Setter Property="FontSize" Value="12" />
-    </Style>
+    </Style>-->
 
   
 </ResourceDictionary>

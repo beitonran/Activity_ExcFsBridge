@@ -19,7 +19,6 @@ using GalaSoft.MvvmLight.Command;
 using GalaSoft.MvvmLight.Messaging;
 using LauncherMvvmLight.Domain.Messages;
 using LauncherMvvmLight.Domain.Services.DeviceCollectService;
-using LauncherMvvmLight.Domain.Services.DeviceScannerService;
 using NLog;
 using System.Windows.Data;
 
