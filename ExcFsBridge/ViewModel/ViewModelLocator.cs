@@ -20,6 +20,7 @@ using ExcFsBridge.View.ShellViews.DeviceDataView;
 using ExcFsBridge.Domain.Services.TaskService;
 using ExcFsBridge.View.PageViews.TestView;
 using ExcFsBridge.Domain.Services.SyncService;
+using ExcFsBridge.View.ShellViews.FsuipcView;
 
 namespace ExcFsBridge.ViewModel
 {
@@ -65,6 +66,7 @@ namespace ExcFsBridge.ViewModel
 
 
             SimpleIoc.Default.Register<FileExportSettingsViewModel>();
+            SimpleIoc.Default.Register<StartViewModelFsBridge>();
 
 
 
@@ -116,7 +118,13 @@ namespace ExcFsBridge.ViewModel
                 return ServiceLocator.Current.GetInstance<FileExportSettingsViewModel>();
             }
         }
-
+        public StartViewModelFsBridge StartViewFsBridge
+        {
+            get
+            {
+                return ServiceLocator.Current.GetInstance<StartViewModelFsBridge>();
+            }
+        }
         public ShellViewModel Shell
         {
             get

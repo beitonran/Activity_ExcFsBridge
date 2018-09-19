@@ -6,7 +6,7 @@
     x:Class="ExcFsBridge.View.ShellViews.FsuipcView.StartViewFsBridge"
    >
     <Grid>
-        <TabControl TabStripPlacement="Top" Margin="0,1,0,-186">
+        <TabControl TabStripPlacement="Top">
             <TabItem>
                 <TabItem.Header>
                     <StackPanel Orientation="Horizontal">
