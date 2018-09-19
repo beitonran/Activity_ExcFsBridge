@@ -332,6 +332,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Resource Include="Resources\images\bullet_blue.png" />
+    <Resource Include="Resources\images\bullet_green.png" />
+    <Resource Include="Resources\images\bullet_red.png" />
     <None Include="Resources\Image1.png" />
     <Resource Include="Resources\images\web.png" />
     <None Include="Resources\Icon1.ico" />

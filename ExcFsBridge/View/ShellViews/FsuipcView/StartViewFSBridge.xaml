@@ -10,7 +10,7 @@
             <TabItem>
                 <TabItem.Header>
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="/Resources/Images/bullet_blue.png" />
+                        <Image Source="/Resources/images/bullet_blue.png" />
                         <TextBlock Text="Basics" Foreground="Blue" />
                     </StackPanel>
                 </TabItem.Header>
@@ -25,7 +25,7 @@
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
                     <Button Command="{Binding LongRunningCommand}" Margin="0,10,0,10">
-                        <TextBlock Style="{StaticResource SampleLinkStyle}" Text="Connevvct To - FSUIPCBridge" />
+                        <TextBlock  Text="Connevvct To - FSUIPCBridge" />
                     </Button>
                     <Label Grid.Row="1" Content="Indicated Air Speed.  (Basic Integer Read):" />
                     <TextBox Grid.Row="1" Grid.Column="1" Margin="0,0,0,10" />
@@ -37,7 +37,7 @@
             <TabItem>
                 <TabItem.Header>
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="/Resources/Images/bullet_red.png" />
+                        <Image Source="/Resources/images/bullet_red.png" />
                         <TextBlock Text="Latitude/Longitude" Foreground="Red" />
                     </StackPanel>
                 </TabItem.Header>
@@ -45,7 +45,7 @@
             <TabItem>
                 <TabItem.Header>
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="/Resources/Images/bullet_green.png" />
+                        <Image Source="/Resources/images/bullet_green.png" />
                         <TextBlock Text="AI Traffic Radar" Foreground="Green" />
                     </StackPanel>
                 </TabItem.Header>

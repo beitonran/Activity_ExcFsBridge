@@ -1,7 +1,6 @@
 ﻿using System.Windows;
 using ExcFsBridge.ViewModel;
 using System.Windows.Input;
-using MahApps.Metro.Controls;
 using System.Windows.Navigation;
 
 namespace ExcFsBridge
