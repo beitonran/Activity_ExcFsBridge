@@ -1,9 +1,9 @@
 ﻿using GalaSoft.MvvmLight;
-using LauncherMvvmLight.Model;
+using ExcFsBridge.Model;
 using GalaSoft.MvvmLight.Messaging;
 using GalaSoft.MvvmLight.Command;
 
-namespace LauncherMvvmLight.ViewModel
+namespace ExcFsBridge.ViewModel
 {
     /// <summary>
     /// This class contains properties that the main View can data bind to.

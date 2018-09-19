@@ -4,7 +4,7 @@ using System.Windows.Data;
 using System.Windows.Media;
 using System.Windows;
 
-namespace LauncherMvvmLight.Domain.Utils.Convertors
+namespace ExcFsBridge.Domain.Utils.Convertors
 { 
   public class DeviceStatusToTextDecorationsConverter: IValueConverter {
 

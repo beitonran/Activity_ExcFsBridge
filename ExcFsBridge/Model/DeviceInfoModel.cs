@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using LauncherMvvmLight.Domain.UtilServices;
+using ExcFsBridge.Domain.UtilServices;
 
 
 
-namespace LauncherMvvmLight.Model
+namespace ExcFsBridge.Model
 {
     public class DeviceConfigDisplayModel
     {

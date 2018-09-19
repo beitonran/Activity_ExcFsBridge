@@ -6,14 +6,14 @@ using System.Diagnostics;
 using System.Management.Automation;
 using System.Management.Automation.Runspaces;
 using GalaSoft.MvvmLight.Messaging;
-using LauncherMvvmLight.Domain.Messages;
-using LauncherMvvmLight.Domain.Services.UtilServices;
-using LauncherMvvmLight.Model;
+using ExcFsBridge.Domain.Messages;
+using ExcFsBridge.Domain.Services.UtilServices;
+using ExcFsBridge.Model;
 using Microsoft.Win32;
 using System.IO;
 using System.Text;
 
-namespace LauncherMvvmLight.Domain.Services.DeviceCollectService
+namespace ExcFsBridge.Domain.Services.DeviceCollectService
 {
 
 

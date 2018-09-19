@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
-using LauncherMvvmLight.Model;
+using ExcFsBridge.Model;
 
 
-namespace LauncherMvvmLight.Domain.Services.UtilServices
+namespace ExcFsBridge.Domain.Services.UtilServices
 {
     /// <summary>
     /// This class manages a note repository.

@@ -7,10 +7,10 @@ using System.Windows;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("LauncherMvvmLight")]
+[assembly: AssemblyTitle("ExcFsBridge")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyProduct("LauncherMvvmLight")]
+[assembly: AssemblyProduct("ExcFsBridge")]
 [assembly: AssemblyCompany("Microsoft")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2017")]
 [assembly: AssemblyTrademark("")]

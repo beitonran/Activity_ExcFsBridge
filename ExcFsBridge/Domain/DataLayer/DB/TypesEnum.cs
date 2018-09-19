@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Reflection;
 
-namespace LauncherMvvmLight.Domain.DataLayer.DB
+namespace ExcFsBridge.Domain.DataLayer.DB
 {
     public enum Modules
     {

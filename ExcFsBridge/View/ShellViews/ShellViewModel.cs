@@ -9,14 +9,14 @@ using System.Threading;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Threading;
-using LauncherMvvmLight.Model;
+using ExcFsBridge.Model;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using GalaSoft.MvvmLight.Messaging;
 using Microsoft.Win32;
 using NLog;
 
-namespace LauncherMvvmLight.View.ShellViews
+namespace ExcFsBridge.View.ShellViews
 {
     public class ShellViewModel : ViewModelBase
     {

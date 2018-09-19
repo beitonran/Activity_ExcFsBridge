@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LauncherMvvmLight.Resources {
+namespace ExcFsBridge.Resources {
     using System;
     
     
@@ -19,7 +19,7 @@ namespace LauncherMvvmLight.Resources {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class LauncherResources {
@@ -39,7 +39,7 @@ namespace LauncherMvvmLight.Resources {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("LauncherMvvmLight.Resources.LauncherResources", typeof(LauncherResources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ExcFsBridge.Resources.LauncherResources", typeof(LauncherResources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -75,16 +75,6 @@ namespace LauncherMvvmLight.Resources {
         public static string Company {
             get {
                 return ResourceManager.GetString("Company", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        public static System.Drawing.Bitmap Image1 {
-            get {
-                object obj = ResourceManager.GetObject("Image1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
             }
         }
         

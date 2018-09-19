@@ -1,10 +1,10 @@
 ﻿using System.Windows;
-using LauncherMvvmLight.ViewModel;
+using ExcFsBridge.ViewModel;
 using System.Windows.Input;
 using MahApps.Metro.Controls;
 using System.Windows.Navigation;
 
-namespace LauncherMvvmLight
+namespace ExcFsBridge
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

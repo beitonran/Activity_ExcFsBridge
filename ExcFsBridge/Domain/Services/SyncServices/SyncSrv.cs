@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 
 
-namespace LauncherMvvmLight.Domain.Services.SyncService
+namespace ExcFsBridge.Domain.Services.SyncService
 {
     /// <summary>
     /// The Interface defining methods for Create Employee and Read All Employees  

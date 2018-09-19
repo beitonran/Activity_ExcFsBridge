@@ -1,8 +1,8 @@
 ﻿using System;
 using GalaSoft.MvvmLight.Messaging;
-using LauncherMvvmLight.Model;
+using ExcFsBridge.Model;
 
-namespace LauncherMvvmLight.Domain.Messages
+namespace ExcFsBridge.Domain.Messages
 {
     public class DeviceSlectedConfigMsg : MessageBase
     {

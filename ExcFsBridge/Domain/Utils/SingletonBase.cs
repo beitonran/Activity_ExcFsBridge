@@ -5,7 +5,7 @@
 
 using System;
 
-namespace LauncherMvvmLight.Infrastructure.Util
+namespace ExcFsBridge.Infrastructure.Util
 {
     public abstract class SingletonBase<T> where T : class
     {

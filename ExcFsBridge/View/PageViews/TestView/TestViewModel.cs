@@ -5,11 +5,11 @@ using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using GalaSoft.MvvmLight.Messaging;
 
-using LauncherMvvmLight.Domain.Services.SyncService;
-using LauncherMvvmLight.Domain.Services.TaskService;
+using ExcFsBridge.Domain.Services.SyncService;
+using ExcFsBridge.Domain.Services.TaskService;
 using NLog;
 
-namespace LauncherMvvmLight.View.PageViews.TestView
+namespace ExcFsBridge.View.PageViews.TestView
 {
     public class TestViewModel : ViewModelBase
     {

@@ -3,7 +3,7 @@ using System.Windows.Controls;
 using System.IO;
 using System.Windows.Media;
 
-namespace LauncherMvvmLight.View.ShellViews
+namespace ExcFsBridge.View.ShellViews
 {
     /// <summary>
     /// Interaction logic for Shell.xaml

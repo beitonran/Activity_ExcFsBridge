@@ -1,6 +1,6 @@
 ﻿using System.Windows.Data;
 using System.Windows.Media;
-namespace LauncherMvvmLight.Domain.UtilServices
+namespace ExcFsBridge.Domain.UtilServices
 {
     public class BrushColorConverter : IValueConverter
     {

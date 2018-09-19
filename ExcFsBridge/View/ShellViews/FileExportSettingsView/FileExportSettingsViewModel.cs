@@ -9,20 +9,20 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Threading;
-using LauncherMvvmLight.Domain;
+using ExcFsBridge.Domain;
 using System.Linq;
-using LauncherMvvmLight.Infrastructure.Util;
-using LauncherMvvmLight.MessageInfrastructure;
-using LauncherMvvmLight.Model;
+using ExcFsBridge.Infrastructure.Util;
+using ExcFsBridge.MessageInfrastructure;
+using ExcFsBridge.Model;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using GalaSoft.MvvmLight.Messaging;
-using LauncherMvvmLight.Domain.Messages;
-using LauncherMvvmLight.Domain.Services.DeviceCollectService;
+using ExcFsBridge.Domain.Messages;
+using ExcFsBridge.Domain.Services.DeviceCollectService;
 using NLog;
 using System.Windows.Data;
 
-namespace LauncherMvvmLight.View.ShellViews.DeviceDataView
+namespace ExcFsBridge.View.ShellViews.DeviceDataView
 {
     public class FileExportSettingsViewModel : ViewModelBase
     {

@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace LauncherMvvmLight.View.PageViews.TestView
+namespace ExcFsBridge.View.PageViews.TestView
 {
     /// <summary>
     /// Interaction logic for TestView.xaml

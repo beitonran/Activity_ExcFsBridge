@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Media;
 
-namespace LauncherMvvmLight.Domain.Utils.Helpers
+namespace ExcFsBridge.Domain.Utils.Helpers
 {
     /// <summary>
     /// This a helper Extension Method that help us transforming a string like #ffffff to a Color instance

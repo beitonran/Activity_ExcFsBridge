@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Media;
 
-namespace LauncherMvvmLight.Domain.Utils.Helpers
+namespace ExcFsBridge.Domain.Utils.Helpers
 {
     public static class VisualTreeHelper
     {

@@ -1,9 +1,9 @@
-﻿<Page x:Class="LauncherMvvmLight.View.ShellViews.Shell"
+﻿<Page x:Class="ExcFsBridge.View.ShellViews.Shell"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:fileExportSettingsView="clr-namespace:LauncherMvvmLight.View.ShellViews.FileExportSettingsView"
-        xmlns:deviceDataView="clr-namespace:LauncherMvvmLight.View.ShellViews.DeviceDataView"
+        xmlns:fileExportSettingsView="clr-namespace:ExcFsBridge.View.ShellViews.FileExportSettingsView"
+        xmlns:deviceDataView="clr-namespace:ExcFsBridge.View.ShellViews.DeviceDataView"
         Title="{Binding WindowTitle}"
         Height="800"
         Width="1150">
@@ -189,7 +189,7 @@
                 </Grid>
                 <Grid Grid.Row="2" Margin="5,5,5,5" VerticalAlignment="Top">
                     <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
-                        <Image Source="/LauncherMvvmLight;component/Resources/images/logo.png" RenderTransformOrigin="0.5,0.5" Margin="0"/>
+                        <Image Source="/ExcFsBridge;component/Resources/images/logo.png" RenderTransformOrigin="0.5,0.5" Margin="0"/>
                         <Button Command="{Binding ExcaliburCommand}" Style="{DynamicResource MaterialDesignToolButton}" ToolTip="Web Site" Margin="20,0" Height="50" Width="50" IsCancel="True" Background="#FF3A80C7">
                             <Viewbox Width="48" Height="48" >
                                 <Canvas Height="30" Width="30">

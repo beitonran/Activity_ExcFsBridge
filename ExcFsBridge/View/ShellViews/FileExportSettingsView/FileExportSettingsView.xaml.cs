@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace LauncherMvvmLight.View.ShellViews.FileExportSettingsView
+namespace ExcFsBridge.View.ShellViews.FileExportSettingsView
 {
     /// <summary>
     /// Interaction logic for FileExportSettingsView.xaml

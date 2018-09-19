@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace LauncherMvvmLight.View.PageViews.HelpView
+namespace ExcFsBridge.View.PageViews.HelpView
 {
     /// <summary>
     /// Interaction logic for HelpView.xaml

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.ObjectModel;
-using LauncherMvvmLight.Model;
+using ExcFsBridge.Model;
 
 
-namespace LauncherMvvmLight.Design
+namespace ExcFsBridge.Design
 {
     /*
     public class DesignDataService : IDeviceScannerService

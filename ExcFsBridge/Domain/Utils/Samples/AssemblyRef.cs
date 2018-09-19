@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LauncherMvvmLight.Domain.Services.DataCollectService
+namespace ExcFsBridge.Domain.Services.DataCollectService
 {
     /// <summary>
     ///     Intent: Get referenced assemblies, either recursively or flat. Not thread safe, if running in a multi

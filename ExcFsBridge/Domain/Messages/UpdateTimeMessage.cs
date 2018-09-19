@@ -1,7 +1,7 @@
 ﻿using System;
-using LauncherMvvmLight.Model;
+using ExcFsBridge.Model;
 
-namespace LauncherMvvmLight.MessageInfrastructure
+namespace ExcFsBridge.MessageInfrastructure
 {
     public class UpdateTimeMessage
     {

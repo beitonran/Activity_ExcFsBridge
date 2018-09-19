@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using GalaSoft.MvvmLight.Threading;
 
-namespace LauncherMvvmLight
+namespace ExcFsBridge
 {
     /// <summary>
     /// Interaction logic for App.xaml

@@ -8,10 +8,10 @@ using System.Windows.Threading;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using GalaSoft.MvvmLight.Messaging;
-using LauncherMvvmLight.Model;
+using ExcFsBridge.Model;
 using NLog;
 
-namespace LauncherMvvmLight.Domain.Utils.Samples
+namespace ExcFsBridge.Domain.Utils.Samples
 {
     public class SampleViewModel : ViewModelBase
     {

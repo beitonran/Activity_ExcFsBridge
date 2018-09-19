@@ -10,7 +10,7 @@ using System.Reflection;
 //    stateDropDown.Items.Add(GetEnumDescription(state));
 //}
 
-namespace LauncherMvvmLight.Domain.Utils.Helpers
+namespace ExcFsBridge.Domain.Utils.Helpers
 {
     public static class EnumHelper
     {

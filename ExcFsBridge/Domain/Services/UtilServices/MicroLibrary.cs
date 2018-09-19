@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LauncherMvvmLight.Domain.UtilServices
+namespace ExcFsBridge.Domain.UtilServices
 {
     public class MicroStopwatch : System.Diagnostics.Stopwatch
     {

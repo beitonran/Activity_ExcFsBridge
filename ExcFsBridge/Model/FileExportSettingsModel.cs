@@ -1,8 +1,8 @@
 ﻿using System;
-using LauncherMvvmLight.Domain.UtilServices;
-using LauncherMvvmLight.Infrastructure.Util;
+using ExcFsBridge.Domain.UtilServices;
+using ExcFsBridge.Infrastructure.Util;
 
-namespace LauncherMvvmLight.Model
+namespace ExcFsBridge.Model
 {
     [Serializable]
     public class FileExportSettingsModel : SingletonBase<FileExportSettingsModel>

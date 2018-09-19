@@ -11,7 +11,7 @@ using System.Reflection;
 //    stateDropDown.Items.Add(GetEnumDescription(state));
 //}
 //Sample: IEnumerable<Foo> distinctList = sourceList.DistinctBy(x => x.FooName);
-namespace LauncherMvvmLight.Domain.Utils.Helpers
+namespace ExcFsBridge.Domain.Utils.Helpers
 {
     public static class FilterHelper
     {

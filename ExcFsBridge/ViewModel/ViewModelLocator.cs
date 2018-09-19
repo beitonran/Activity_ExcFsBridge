@@ -1,7 +1,7 @@
 ﻿/*
   In App.xaml:
   <Application.Resources>
-      <vm:ViewModelLocatorTemplate xmlns:vm="clr-namespace:LauncherMvvmLight.ViewModel"
+      <vm:ViewModelLocatorTemplate xmlns:vm="clr-namespace:ExcFsBridge.ViewModel"
                                    x:Key="Locator" />
   </Application.Resources>
   
@@ -12,16 +12,16 @@
 using System;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Ioc;
-using LauncherMvvmLight.Domain.Services.DeviceCollectService;
+using ExcFsBridge.Domain.Services.DeviceCollectService;
 using Microsoft.Practices.ServiceLocation;
-using LauncherMvvmLight.View.PageViews.HelpView;
-using LauncherMvvmLight.View.ShellViews;
-using LauncherMvvmLight.View.ShellViews.DeviceDataView;
-using LauncherMvvmLight.Domain.Services.TaskService;
-using LauncherMvvmLight.View.PageViews.TestView;
-using LauncherMvvmLight.Domain.Services.SyncService;
+using ExcFsBridge.View.PageViews.HelpView;
+using ExcFsBridge.View.ShellViews;
+using ExcFsBridge.View.ShellViews.DeviceDataView;
+using ExcFsBridge.Domain.Services.TaskService;
+using ExcFsBridge.View.PageViews.TestView;
+using ExcFsBridge.Domain.Services.SyncService;
 
-namespace LauncherMvvmLight.ViewModel
+namespace ExcFsBridge.ViewModel
 {
     /// <summary>
     /// This class contains static references to all the view models in the

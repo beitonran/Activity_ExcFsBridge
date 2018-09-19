@@ -1,5 +1,5 @@
 ﻿
-namespace LauncherMvvmLight
+namespace ExcFsBridge
 {
     public sealed class WellKnownProperties
     {

@@ -7,8 +7,8 @@
     <ProjectGuid>{A9199097-D160-43C4-A96F-703ABF797DBA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LauncherMvvmLight</RootNamespace>
-    <AssemblyName>LauncherMvvmLight</AssemblyName>
+    <RootNamespace>ExcFsBridge</RootNamespace>
+    <AssemblyName>ExcFsBridge</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -63,6 +63,9 @@
   <ItemGroup>
     <Reference Include="ControlzEx, Version=3.0.2.4, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\ControlzEx.3.0.2.4\lib\net462\ControlzEx.dll</HintPath>
+    </Reference>
+    <Reference Include="FSUIPCClient">
+      <HintPath>_DLL\FSUIPC\4.0 Framework\FSUIPCClient.dll</HintPath>
     </Reference>
     <Reference Include="GalaSoft.MvvmLight, Version=5.2.0.37222, Culture=neutral, PublicKeyToken=e7570ab207bcb616, processorArchitecture=MSIL">
       <HintPath>..\packages\MvvmLightLibs.5.2.0.0\lib\net45\GalaSoft.MvvmLight.dll</HintPath>
@@ -202,6 +205,8 @@
     <Compile Include="Domain\Messages\UpdateSystemReportMessage.cs" />
     <Compile Include="Domain\Messages\UpdateTimeMessage.cs" />
     <Compile Include="Domain\Services\DBService\DBSrv.cs" />
+    <Compile Include="Domain\Services\FSUIPCBridgeService\FSBridgeInterface.cs" />
+    <Compile Include="Domain\Services\FSUIPCBridgeService\fsuipc.cs" />
     <Compile Include="Domain\Services\SyncServices\SyncSrv.cs" />
     <Compile Include="Domain\Services\TaskServices\AsycSrv.cs" />
     <Compile Include="Domain\Services\TaskServices\TaskSrv.cs" />
@@ -250,6 +255,10 @@
     <Compile Include="View\ShellViews\FileExportSettingsView\FileExportSettingsView.xaml.cs">
       <DependentUpon>FileExportSettingsView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\ShellViews\FsuipcView\StartViewFsBridge.xaml.cs">
+      <DependentUpon>StartViewFsBridge.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ShellViews\FsuipcView\StartViewModelFSBridge.cs" />
     <Compile Include="View\ShellViews\Shell.xaml.cs">
       <DependentUpon>Shell.xaml</DependentUpon>
     </Compile>
@@ -297,6 +306,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="View\ShellViews\FileExportSettingsView\FileExportSettingsView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\ShellViews\FsuipcView\StartViewFsBridge.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

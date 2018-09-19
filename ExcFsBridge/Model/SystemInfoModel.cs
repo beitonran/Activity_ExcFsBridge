@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LauncherMvvmLight.Model
+namespace ExcFsBridge.Model
 {
     [Serializable]
     public class SystemInfoModel

@@ -10,7 +10,7 @@ using System.Windows.Controls;
 using System.Windows.Media;
 using GalaSoft.MvvmLight.Views;
 
-namespace LauncherMvvmLight
+namespace ExcFsBridge
 {
 
     public interface IFrameNavigationService : INavigationService

@@ -7,20 +7,20 @@ using System.Linq;
 using System.Management.Automation;
 using System.Management.Automation.Runspaces;
 using GalaSoft.MvvmLight.Messaging;
-using LauncherMvvmLight.Domain.Messages;
-using LauncherMvvmLight.Domain.Services.UtilServices;
-using LauncherMvvmLight.MessageInfrastructure;
-using LauncherMvvmLight.Model;
+using ExcFsBridge.Domain.Messages;
+using ExcFsBridge.Domain.Services.UtilServices;
+using ExcFsBridge.MessageInfrastructure;
+using ExcFsBridge.Model;
 using Microsoft.Win32;
 using System.IO;
 using System.Management;
 using System.Text;
 using System.Runtime.InteropServices;
-using LauncherMvvmLight.Domain.DataLayer.DB;
+using ExcFsBridge.Domain.DataLayer.DB;
 using System.Reflection;
-using LauncherMvvmLight.Domain.Utils.Helpers;
+using ExcFsBridge.Domain.Utils.Helpers;
 
-namespace LauncherMvvmLight.Domain.Services.DeviceCollectService
+namespace ExcFsBridge.Domain.Services.DeviceCollectService
 {
     /// <summary>
     /// The Interface defining methods for Create Employee and Read All Employees  

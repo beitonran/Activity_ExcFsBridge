@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 using LumenWorks.Framework.IO.Csv;
 
 
-namespace LauncherMvvmLight.Domain.DataLayer.DB
+namespace ExcFsBridge.Domain.DataLayer.DB
 {
     public class DataExcellLayer
     {

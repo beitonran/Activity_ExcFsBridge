@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LauncherMvvmLight.Infrastructure.Util
+namespace ExcFsBridge.Infrastructure.Util
 {
     /// <summary>
     /// Attribute used by view models to define a property that can send a value

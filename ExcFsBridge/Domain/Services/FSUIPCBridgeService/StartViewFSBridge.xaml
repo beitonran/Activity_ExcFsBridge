@@ -1,0 +1,57 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="Excalibur.FSClientApplication.FSUIPCBridge.StartViewFSBridge"
+    Title="FSBridge- WPF Starter Kit" >
+    <Grid>
+        <TabControl TabStripPlacement="Top" Margin="0,0,0,-185">
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Resources/Images/bullet_blue.png" />
+                        <TextBlock Text="Basics" Foreground="Blue" />
+                    </StackPanel>
+                </TabItem.Header>
+                <Grid Margin="20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Button Command="{Binding LongRunningCommand}" Margin="0,10,0,10">
+                        <TextBlock Style="{StaticResource SampleLinkStyle}">
+                        Connect To - FSUIPCBridge
+                        </TextBlock>
+                    </Button>
+                    <Label Grid.Row="1" Content="Indicated Air Speed.  (Basic Integer Read):"/>
+                    <TextBox Grid.Row="1" Grid.Column="1" Margin="0,0,0,10" />
+                    <Label Grid.Row="2" Content="Comment:"/>
+                    <TextBox Grid.Row="2" Grid.Column="1" AcceptsReturn="True" />
+                </Grid>
+
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Resources/Images/bullet_red.png" />
+                        <TextBlock Text="Latitude/Longitude" Foreground="Red" />
+                    </StackPanel>
+                </TabItem.Header>
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Resources/Images/bullet_green.png" />
+                        <TextBlock Text="AI Traffic Radar" Foreground="Green" />
+                    </StackPanel>
+                </TabItem.Header>
+            </TabItem>
+
+        </TabControl>
+
+    </Grid>
+</Page>

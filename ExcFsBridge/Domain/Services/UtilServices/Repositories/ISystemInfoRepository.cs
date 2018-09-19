@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using LauncherMvvmLight.Model;
+using ExcFsBridge.Model;
 
 
-namespace LauncherMvvmLight.Domain.Services.UtilServices
+namespace ExcFsBridge.Domain.Services.UtilServices
 {
     public interface ISystemInfoRepository
     {
