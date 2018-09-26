@@ -13,6 +13,7 @@ using System;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Ioc;
 using ExcFsBridge.Domain.Services.DeviceCollectService;
+using ExcFsBridge.Domain.Services.FSUIPCBridgeService;
 using Microsoft.Practices.ServiceLocation;
 using ExcFsBridge.View.PageViews.HelpView;
 using ExcFsBridge.View.ShellViews;
@@ -47,6 +48,7 @@ namespace ExcFsBridge.ViewModel
                 //SimpleIoc.Default.Register<IDeviceScannerService, DeviceScannerService>();
                 SimpleIoc.Default.Register<IDataCollectSrv, DataCollectSrv>();
                 SimpleIoc.Default.Register<IDBSrv, DBSrv>();
+                SimpleIoc.Default.Register<IFSBridgeSrv, FSBridgeSrv>();
                 SimpleIoc.Default.Register<ITaskSrv, TaskSrv>();
                 SimpleIoc.Default.Register<IAsyncSrv, AsyncSrv>();
                 SimpleIoc.Default.Register<ISyncSrv, SyncSrv>();

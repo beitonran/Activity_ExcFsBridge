@@ -205,7 +205,7 @@
     <Compile Include="Domain\Messages\UpdateSystemReportMessage.cs" />
     <Compile Include="Domain\Messages\UpdateTimeMessage.cs" />
     <Compile Include="Domain\Services\DBService\DBSrv.cs" />
-    <Compile Include="Domain\Services\FSUIPCBridgeService\FSBridgeInterface.cs" />
+    <Compile Include="Domain\Services\FSUIPCBridgeService\FSBridgeSrv.cs" />
     <Compile Include="Domain\Services\FSUIPCBridgeService\fsuipc.cs" />
     <Compile Include="Domain\Services\SyncServices\SyncSrv.cs" />
     <Compile Include="Domain\Services\TaskServices\AsycSrv.cs" />

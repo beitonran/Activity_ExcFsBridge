@@ -9,7 +9,15 @@ using FSUIPC;
 
 namespace ExcFsBridge.Domain.Services.FSUIPCBridgeService
 {
-    public class FSBridgeInterface
+    /// <summary>
+    /// The Interface defining methods for Create Employee and Read All Employees  
+    /// </summary>
+    public interface IFSBridgeSrv
+    {
+        void Start();
+        void Stop();       
+    }
+    public class FSBridgeSrv
     {
         // Private Static Members
         private static readonly string AppTitle = "FSUIPCClientApplication_CSharp";
@@ -42,7 +50,7 @@ namespace ExcFsBridge.Domain.Services.FSUIPCBridgeService
         /// <summary>
         /// 
         /// </summary>
-        public FSBridgeInterface()
+        public FSBridgeSrv()
         {
 
         }
